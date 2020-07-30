@@ -47,6 +47,7 @@ Listen on: https://localhost:8443/home/index.html
 
 # UI Interface
 This application has only one screen. Here the user can set the plateau dimensions, render the plateau, set the rover's position, and his instruction set.
+It's important to click each button after writing the parameters,  if not it can show some input errors.
 ![Menu](https://user-images.githubusercontent.com/38536245/88965031-8c513300-d280-11ea-99ff-ab430e33c286.png)
 
 After these three steps, with the run button, the rover will be shown in his final position.
