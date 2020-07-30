@@ -37,6 +37,7 @@ To run the application, download or clone this project from the root directory. 
 
 After that, in the project folder, open a command console an run:
 
+    npm i
     npm start
 
 The server will show a message with the link to the web page because it runs on the localhost using HTTP and HTTPS ports.
