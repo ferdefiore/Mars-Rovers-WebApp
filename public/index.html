@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <title>CSS GRID</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <h1 class="title"> Mars Rovers Control Center</h1>
+        <div class="out-div">
+            <div class="box first-step-div">
+                <h2>Input Grid Dimentions</h2>
+                <div>
+                    <label class="label">Width:</label>
+                    <input class="input-text" id="width-text" type="number" placeholder="Insert a dimension as a number bigger than zero">
+                    <label class="label">Height:</label>
+                    <input class="input-text" id="height-text" type="number" placeholder="Insert a dimension as a number bigger than zero">
+                    <button class="button" id="render-plateau-btn">Render Plateau</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Example Grid</h2>
+                <div class="table-container" id="table-container1">
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Input Rover's starting position</h2>
+                <div>
+                    <label class="label">Coordinate X:</label>
+                    <input class="input-text" id="roverX" type="number" placeholder="E.g: 0">
+                    <label class="label">Coordinate Y:</label>
+                    <input class="input-text" id="roverY" type="number" placeholder="E.g: 0">
+                    <label class="label">Facing Cardinal Point:</label>
+                    <input class="input-text uppercase" id="roverC" type="text" maxlength="1" placeholder="N | S | E | W ">
+                    <button class="button" id="render-rover-btn">Render Rover</button>
+                </div>
+            </div>
+
+            <div class="box" >
+                <h2>Grid With Rover</h2>
+                <div class="table-container" id="table-container2">
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Input Rover's Instrucctions Set</h2>
+                <div>
+                    <label class="label">Instrucctions set:</label>
+                    <input class="input-text uppercase" id="rover-instrucctions" type="text" placeholder="E.g: MMRMMRMLMLM">
+                    <button class="button" id="run-btn">Run</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Final Rover Position</h2>
+                <div class="information-text" id="rover-information"></div>
+                <div class="table-container" id="table-container3">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
